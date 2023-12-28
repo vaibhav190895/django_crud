@@ -10,7 +10,7 @@ from flask import jsonify
 from flask import flash, request
 
 mysql = MySQL()
- 
+###################################
 # MySQL configurations
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = ''
